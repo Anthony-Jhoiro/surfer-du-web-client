@@ -1,0 +1,32 @@
+nav {
+    background-color: rgba(255,255,255,0.1);
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.ml {
+    margin-left: 10%;
+}
+
+.mr {
+    margin-right: 10%;
+}
+
+.styledLinks {
+    text-decoration: none;
+    transition: all 0.5s;
+    color: rgb(180,130,80);
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.styledLinks:hover {
+    background-color: rgba(255,255,255,0.3);
+}
