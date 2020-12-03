@@ -1,21 +1,16 @@
 import logo from './logo.svg';
+
 import './App.css';
-import Welcome from './pages/welcome';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route
 } from "react-router-dom";
+import Paths from './routing/paths';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route path="/">
-            <Welcome/>
-          </Route>
-        </Switch>
+        <Paths/>
       </Router>
     </div>
   );
