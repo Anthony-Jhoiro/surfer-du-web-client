@@ -6,9 +6,9 @@ import '../styles/components/form.css'
 export default function Form (props) {
     return (
         
-        <div>
+        <form>
             {props.children}
-        </div>
+        </form>
 
     )
 }

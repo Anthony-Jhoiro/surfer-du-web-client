@@ -15,10 +15,11 @@ export default function Inscription(props) {
         <>
             <Header/>
             <Form>
-                <Grid container justify="center" alignItems="center" className="view">
-                    <label> Nom d'utilisateur : 
+                <Grid container direction="column" justify="space-evenly" alignItems="center" className="view">
+                    <Grid>
+                        <label> Nom d'utilisateur :</label>
                         <input id="pseudo" type="text" placeholder="Ecris ton nom meme"></input>
-                    </label>
+                    </Grid>
                     <label> Adresse E-mail : 
                         <input id="mail" type="email" placeholder="Met ton mail"></input>
                     </label>

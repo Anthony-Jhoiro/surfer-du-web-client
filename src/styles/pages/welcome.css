@@ -1,4 +1,4 @@
-body::before {
+/* body::before {
     content: "";
     background-image: url("../../images/welcome-bg.jpg");
     background-size: cover;
@@ -8,7 +8,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
 .view {
     width: 100vw;
