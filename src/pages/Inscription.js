@@ -11,6 +11,7 @@ import Header from "../components/header"
 import Form from '../components/form'
 
 export default function Inscription(props) {
+    
     return (
         <>
             <Header/>
@@ -20,12 +21,14 @@ export default function Inscription(props) {
                         <label> Nom d'utilisateur :</label>
                         <input id="pseudo" type="text" placeholder="Ecris ton nom meme"></input>
                     </Grid>
-                    <label> Adresse E-mail : 
+                    <Grid>
+                        <label> Adresse E-mail : </label>
                         <input id="mail" type="email" placeholder="Met ton mail"></input>
-                    </label>
-                    <label> Mot de passe : 
+                    </Grid>
+                    <Grid>
+                        <label> Mot de passe : </label>
                         <input id="mdp" type="password" placeholder="Ton mot de passe"></input>
-                    </label>
+                    </Grid>
                 </Grid>
             </Form>
         </>
