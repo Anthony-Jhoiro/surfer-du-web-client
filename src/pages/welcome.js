@@ -16,12 +16,25 @@ export default function Welcome(props){
             <Grid container justify="center" alignItems="center" className="view">
                 <h1 className="white title">Alors, ça farte ?</h1>
             </Grid>
-            <Grid container justify="center" alignItems="center" className="view">
-                <Grid xs="6">
-                    <button className="beachButton bbred">Trouver un bon spot</button>
+            <Grid container justify="center" alignItems="center" className="viewSSHeader">
+                <Grid container justify="flex-start" alignItems="center" className="midView present">
+                    <Grid item xs={4}>
+                        
+                    </Grid>
+                    <Grid item xs={4}>
+
+                    </Grid>
+                    <Grid item xs={4}>
+
+                    </Grid>
                 </Grid>
-                <Grid xs="6">
-                    <button className="beachButton bbgreen">Proposer ton spot favori</button>
+                <Grid container justify="center" alignItems="center" className="midView">
+                    <Grid item xs={6}>
+                        <button className="beachButton bbred">Trouver un bon spot</button>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <button className="beachButton bbgreen">Proposer ton spot favori</button>
+                    </Grid>
                 </Grid>
             </Grid>
         </>
