@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
@@ -20,6 +20,6 @@ jobs:
     - name: Build the Docker image
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: anthony6jhoiro/partiravec-mean-back
+        name: anthonyjhoiro6/surfer-du-web-client
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
