@@ -1,10 +1,10 @@
 html {
     background-image: url("../../images/welcome-bg.jpg");
-    background-position: fixed;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
-.firstViewGrid {
+.view {
     width: 100vw;
     height: 100vh;
 }
@@ -14,5 +14,24 @@ html {
 }
 
 .title {
-    font-size: 5em;
+    font-size: 200%;
+}
+
+.beachButton {
+    padding: 10px 20px 10px 20px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+.bbred {
+    background: linear-gradient(to right, #FF3333, #FFAA55);;
+}
+
+.bbgreen {
+    background: linear-gradient(to right, #22FF44, #22AAAA);;
 }

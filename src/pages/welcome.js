@@ -13,8 +13,16 @@ export default function Welcome(props){
     return (
         <>
             <Header/>
-            <Grid container justify="center" alignItems="center" className="firstViewGrid">
+            <Grid container justify="center" alignItems="center" className="view">
                 <h1 className="white title">Alors, ça farte ?</h1>
+            </Grid>
+            <Grid container justify="center" alignItems="center" className="view">
+                <Grid xs="6">
+                    <button className="beachButton bbred">Trouver un bon spot</button>
+                </Grid>
+                <Grid xs="6">
+                    <button className="beachButton bbgreen">Proposer ton spot favori</button>
+                </Grid>
             </Grid>
         </>
     );
