@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Git checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       
     - name: Use node.js 10.x
       uses: actions/setup-node@v1
