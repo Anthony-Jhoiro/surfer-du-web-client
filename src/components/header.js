@@ -15,7 +15,7 @@ export default function Header(props){
                 <h1 className="ml">Surfer du Net</h1>
             </Grid>
             <Grid container justify="flex-end" alignItems="center">
-                <Link to="/" className="mr styledLinks white"> connexion </Link>
+                <Link to="/login" className="mr styledLinks white"> connexion </Link>
             </Grid>
         </nav>
     )
