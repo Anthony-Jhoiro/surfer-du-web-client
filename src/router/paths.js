@@ -3,6 +3,8 @@ import {
   Route
 } from "react-router-dom";
 import Homepage from '../pages/Homepage';
+import PostDetail from "../pages/PostDetail";
+import PostForm from "../pages/PostForm";
 
 export default function Paths(){
     return (
@@ -11,10 +13,10 @@ export default function Paths(){
             <Homepage/>
           </Route>
           <Route path="/spots/:id-name">
-            <ConnexionPage/>
+            <PostDetail/>
           </Route>
           <Route path="/spot/edition">
-            <ConnexionPage/>
+            <PostForm/>
           </Route>
         </Switch>
     )
