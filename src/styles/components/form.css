@@ -1,10 +1,8 @@
-label {
-    font-size: 150%;
-    font-weight: bold;
+.formulaire {
+    width: 50vw;
+    height: 70vh;
+    background-color: #ffebcd;
+    border-radius: 5px;
 }
 
-input {
-    width: 250px;
-    height: 40px;
-    margin-left: 25px;
-}
+

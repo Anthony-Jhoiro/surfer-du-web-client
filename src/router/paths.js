@@ -4,12 +4,16 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import ConnexionPage from '../pages/connexion';
 
 export default function Paths(){
     return (
         <Switch>
-          <Route path="/login">
+          <Route path="/signin">
             <Inscription/>
+          </Route>
+          <Route path="/login">
+            <ConnexionPage/>
           </Route>
           <Route path="/">
             <Welcome/>

@@ -6,9 +6,6 @@ import Grid from '@material-ui/core/Grid';
 // styles
 import "../styles/pages/welcome.css"
 
-// composants
-import Header from "../components/header"
-
 // images
 import friend from "../images/attract-beach.jpg"
 import surf from "../images/attract-surf.jpg"
@@ -16,7 +13,6 @@ import surf from "../images/attract-surf.jpg"
 export default function Welcome(props){
     return (
         <>
-            <Header/>
             <Grid container justify="center" alignItems="center" className="view">
                 <h1 className="white title">Alors, ça farte ?</h1>
             </Grid>

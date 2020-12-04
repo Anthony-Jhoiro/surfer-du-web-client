@@ -16,14 +16,14 @@ export async function login(login, password){
 
 export async function isLoged(){
     if(localStorage.getItem("token") === null){
-        return false;
+        return "nonconnect";
     }
     const response = await axios.post(ip + "/auth/login", {headers: {authorisation: "Bearer " + localStorage.getItem("token")}});
     if (response.status === 403){
         localStorage.removeItem("token");
-        return false;
+        return "deconnect";
     }
     else {
-        return true;
+        return "success";
     }
 }
