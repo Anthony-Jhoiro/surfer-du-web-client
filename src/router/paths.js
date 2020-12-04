@@ -1,22 +1,20 @@
-import Welcome from '../pages/welcome';
-import Inscription from '../pages/inscription';
 import {
   Switch,
   Route
 } from "react-router-dom";
-import ConnexionPage from '../pages/connexion';
+import Homepage from '../pages/Homepage';
 
 export default function Paths(){
     return (
         <Switch>
-          <Route path="/signin">
-            <Inscription/>
+          <Route path="/home">
+            <Homepage/>
           </Route>
-          <Route path="/login">
+          <Route path="/spots/:id-name">
             <ConnexionPage/>
           </Route>
-          <Route path="/">
-            <Welcome/>
+          <Route path="/spot/edition">
+            <ConnexionPage/>
           </Route>
         </Switch>
     )
