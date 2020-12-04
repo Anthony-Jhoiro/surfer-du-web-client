@@ -1,4 +1,4 @@
-body::before {
+/* .back::before {
     content: "";
     background-image: url("../../images/welcome-bg.jpg");
     background-size: cover;
@@ -8,10 +8,11 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
 html {
     overflow-x: hidden;
+    background-color: coral;
 }
 
 .view {

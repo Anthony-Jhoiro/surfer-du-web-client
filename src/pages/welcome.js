@@ -12,7 +12,7 @@ import surf from "../images/attract-surf.jpg"
 
 export default function Welcome(props){
     return (
-        <>
+        <div className="back">
             <Grid container justify="center" alignItems="center" className="view">
                 <h1 className="white title">Alors, ça farte ?</h1>
             </Grid>
@@ -39,6 +39,6 @@ export default function Welcome(props){
                     </Grid>
                 </Grid>
             </Grid>
-        </>
+        </div>
     );
 }

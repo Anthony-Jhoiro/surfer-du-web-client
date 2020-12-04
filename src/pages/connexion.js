@@ -12,7 +12,7 @@ export default function ConnexionPage(){
 
 
     return (
-        <Grid container justify="center" alignItems="center">
+        <Grid container justify="center" alignItems="center" className="back">
             <Form>
                 <Grid container direction="column" justify="center" alignItems="flex-start">
                     <label>nom d'utilisateur ou adresse mail :</label>
